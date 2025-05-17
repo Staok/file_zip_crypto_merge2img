@@ -1,2 +1,14 @@
 # file_zip_crypto_merge2img
 python script tools, to zip files(optional add password, and optional in volumes), optional encrypt, and the corresponding decryption and decompression. and a tool to merge and unmerge data files with images (png)
+
+Py 脚本工具，用于对指定文件或文件夹进行压缩（可选使用压缩密码），可选分卷（查了一圈没有直接的分卷功能，这里用的直接将压缩后的文件按照 指定 大小 进行 切割），可选的 对 压缩后的产物 进行 进一步 文件加密；以及 提供 对应的 （解密并）解压缩，恢复如初。还提供了一个 任意数据文件和图片文件融合的工具，即 对 指定 文件夹 里面的所有文件（跳过文件夹）与指定图片目录里面的所有图片（必须 png 格式，因为不同图片格式的编码构造不同就不多兼容其它格式了）进行合并，生成合并后的图片，并仍然可以打开合并后的图片。
+
+
+
+see `zip_crypto.py` and `file_merge.py` for using info.
+
+看 `zip_crypto.py` 和 `file_merge.py` 里面的中文使用信息注释就行了，让我们说中文。
+
+
+
+全部使用 AI 编写（TRAE 编辑器）。
